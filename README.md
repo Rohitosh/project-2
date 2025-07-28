@@ -29,4 +29,4 @@ NutriTrack Pro is a full-featured nutrition tracking web app built with React. I
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/nutri-track-pro.git
+git clone https://github.com/yourusername/nutri-track-pro.git  
