@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root {
+  --bg: #f0f0f0;
+  --text: #222;
+  --card: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg: #1e1e1e;
+  --text: #f0f0f0;
+  --card: #2b2b2b;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.inputs, .dashboard, .items, .tips {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 10px 0 0;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item {
+  background: var(--card);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.chart-container {
+  margin-top: 30px;
+}
+
+.tips, .suggestions {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.graph-box {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.dashboard-main {
+  padding: 2rem;
+  background: var(--background);
+  color: var(--text);
+  max-width: 900px;
+  margin: auto;
+}
+
+h2, h3, h4 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Theme variables */
+:root {
+  --background: #f9f9f9;
+  --text: #333;
+  --accent: #00c9a7;
+}
+
+.App.dark {
+  --background: #121212;
+  --text: #eee;
+  --accent: #00c9a7;
+  background-color: #121212;
+  color: #eee;
+}
+
